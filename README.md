@@ -1,6 +1,9 @@
 # jQuery iPhone Inline Video
 Plays videos inline on an iPhone. So far so good! Obviously doesn't do audio, perhaps we can do the same type of thing with the <audio> tag...
 
+### CDN
+https://cdn.rawgit.com/BOXNYC/jQuery.iPhoneInlineVideo/master/jQuery.iPhoneInlineVideo.js
+
 ### How it works
 - iPhoneInlineVideo removes the <video> element's autoplay attribute. If not, and an inline video element is added later, the fullscreen iPhone mode will happen.
 - <video> element removed from DOM. This is good so you can't see the real player or it's controls.
