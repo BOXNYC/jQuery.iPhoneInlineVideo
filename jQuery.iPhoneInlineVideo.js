@@ -49,7 +49,7 @@
 					    animationFrame = window.requestAnimationFrame(controls.render);
 					  }
 					};
-			$video.data('controls', controls).remove();
+			$video.data('inlineVideo', controls).remove();
 			if(autoPlay) controls.play();
 		});
 	};
