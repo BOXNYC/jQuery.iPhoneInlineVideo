@@ -7,7 +7,9 @@
 		if(!navigator.userAgent.match(/iPhone/i)) return $(this);
 	  options = $.extend({
 	    framesPerSecond: 25,
-	    fadeIn: 'fast'
+	    fadeIn: 'fast',
+	    showPosterAtEnd: false,
+	    rewindAtEnd: false
 	  }, options);
 	  return $(this).each(function() {
 		  if(!$(this).is('[playinline]')) return true;
