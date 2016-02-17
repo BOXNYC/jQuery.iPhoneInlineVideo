@@ -1,3 +1,7 @@
+/**
+ * iPhoneInlineVideo v1.0
+ * By Joseph Weitzel @ BOX Creative NYC
+ */
 (function($){
 	$.fn.iPhoneInlineVideo = function(options){
 		if(!navigator.userAgent.match(/iPhone/i)) return $(this);
