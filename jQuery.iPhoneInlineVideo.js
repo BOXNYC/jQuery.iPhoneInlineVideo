@@ -1,5 +1,5 @@
 /**
- * iPhoneInlineVideo v1.0
+ * jQuery.iPhoneInlineVideo v1.0.dev
  * By Joseph Weitzel @ BOX Creative NYC
  */
 (function($){
