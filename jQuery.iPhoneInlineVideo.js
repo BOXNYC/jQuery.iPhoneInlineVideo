@@ -37,8 +37,8 @@
 						var time = Date.now(),
 							elapsed = (time - lastTime) / 1000;
 						if(!renderable && video.videoHeight && canvas.height) {
-							canvasContext.scale(1, 1);
-							//canvasContext.scale(1, canvas.height / video.videoHeight);
+							//canvasContext.scale(1, 1);
+							canvasContext.scale(1, canvas.height / video.videoHeight);
 							renderable = $canvas.animate({
 								opacity: 1.0
 							}, options.fadeIn);
