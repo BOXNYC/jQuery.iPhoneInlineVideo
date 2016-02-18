@@ -1,13 +1,17 @@
 <!DOCTYPE html><html lang="en-US" prefix="og: http://ogp.me/ns#" ><head><meta charset="UTF-8"><title>jQuery.iPhoneInlineVideo
- Demo</title></head><body>
+ Demo</title><script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script><script type="text/javascript" src="https://rawgit.com/BOXNYC/jQuery.iPhoneInlineVideo/dev/jQuery.iPhoneInlineVideo.js"></script></head><body>
  
  
-<audio controls autostart>
-  <source src="http://d139exwsibuucq.cloudfront.net/ad-stream/supertuesday.mp4" type="audio/mpeg">
-</audio>
-<video controls>
-  <source src="http://d139exwsibuucq.cloudfront.net/ad-stream/supertuesday.mp4" type="audio/mpeg">
-</video> 
+<video playinline autoplay>
+  <source src="http://d139exwsibuucq.cloudfront.net/supertuesday.mp4" type="audio/mpeg">
+</video>
 
+<script type="text/javascript">
+ (function($){
+  $(function(){
+   $('video[playinline]').iPhoneInlineVideo();
+  });
+ })(jQuery)
+</script>
 
 </body></html>
